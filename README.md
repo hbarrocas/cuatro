@@ -1,5 +1,5 @@
 # cuatro
-A game of falling blocks where the number four is key
+A game of falling blocks where the number four is key. In case you ask, yes, it is a clone of Tetr!s, but due to copyright law, this tribute to one of the great classics of computer gaming had to be renamed. With this project I seek no commercial value and I think it won't affect the profits of the big owner corporation even by half a bees.. hair.
 
 ## Preface (before you criticise my code)
 
