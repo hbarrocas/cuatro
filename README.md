@@ -1,6 +1,16 @@
 # cuatro
 A game of falling blocks where the number four is key. In case you ask, yes, it is a clone of Tetr!s, but due to copyright law, this tribute to one of the great classics of computer gaming had to be renamed. With this project I seek no commercial value and I think it won't affect the profits of the big owner corporation even by half a bees.. hair.
 
+## TL;DR - How to run this game?
+
+* Make sure you're using a modern version of Python (Python3.11.6 at the time of publication)
+* Install pygame - this will depend on how your system (different flavours of Linux, MacOS) deals with Python packages [Will update with specific instructions].
+* From the root folder of the repo, run 
+```
+python cuatro
+```
+
+
 ## Preface (before you criticise my code)
 
 This is the third rewrite this game has had since I've started it. As my programming skills grow, I realise it can be re-structured in better ways. I'm sure there are lots of improvements this game can receive, and I know there will always be something to "criticise" about its code or its design. I welcome all constructive feedback I can get. Besides, this is something I chose to do to kill time; something I think may be more fun than playing Solitaire while teaching me something in the process.
