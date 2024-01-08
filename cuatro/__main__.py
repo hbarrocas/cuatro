@@ -9,13 +9,14 @@ evb = engine.EventBus()
 ui = UI.Core(evb)
 game = None
 
+
 class Game:
     _fend = None
     _fend_pause = None
     _engine = None
     _uint = None
     _ev_bus = None
-    _paces = [500, 400, 350, 320, 290, 275, 250, 235, 210, 190, 170]
+    _paces = [500, 400, 350, 320, 290, 275, 250, 235, 210, 180, 150]
     _pace = 0
 
     def __init__(self, ev_bus, ui):
@@ -34,7 +35,7 @@ class Game:
             UI.set_timer(engine.EV_TIMER1, self._paces[self._pace])
 
     def play(self):
-        if not self._fend_pause is None:
+        if self._fend_pause is not None:
             self._fend_pause.restore()
         self._ev_bus.subscribe(engine.EV_TIMER1, self._engine.step)
         self._ev_bus.subscribe(engine.EV_SCORE_CHANGE, self.set_pace)
@@ -86,6 +87,7 @@ def game_won(score):
     sco, ln, lvl = score
     print(f"Game won! score: {sco}")
     ui.exit(0)
+
 
 def game_over(score):
     global game
