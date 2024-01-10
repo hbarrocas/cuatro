@@ -1,16 +1,16 @@
 # cuatro
 ![cuatro's cubes](cuatro-cubes.png)
 
-A game of falling blocks where the number four is key. In case you ask, yes, it is a clone of Tetr!s, but due to copyright law, this tribute to one of the great classics of computer gaming had to be renamed. With this project I seek no commercial value and I think it won't affect the profits of the big owner corporation even by half a bees.. hair.
+A game of falling blocks where the number four is key. In case you ask, yes, it is a clone of Tetr!s, but due to copyright law, I decided to rename this tribute to one of the great classics of computer gaming as "Cuatro". I seek no commercial value with this project and I believe its existance won't affect the profits of the big corporation that owns the original game.
 
 ## TL;DR - How to run this game?
 
 * Make sure you're using a modern version of Python (Python3.11.6 at the time of publication)
-* Install pygame - this will depend on how your system (different flavours of Linux, MacOS) deals with Python packages [Will update with specific instructions].
-* From the root folder of the repo, run 
-```
-python cuatro
-```
+* Install pygame - this will depend on how your system deals with Python packages
+    * MacOS: `pip install pygame`
+    * Archlinux: `pacman -S python-pygame`
+    * Windows: I haven't had the opportunity to use python and pygame on Windows yet. Will update
+* From the root folder of the repo, run `python cuatro`
 
 
 ## Preface (before you criticise my code)
@@ -51,6 +51,6 @@ The fonts were downloaded from Fonts101 (https://fonts101.com). I tried to get m
 
 As for the sounds, I have no information to where these came from.
 
-As an exercise of independence, there are tools to create all of the above. Don't think I will? - Stay tuned.
+For independence's sake, I will try to recreate all the above mentioned media (fonts and sounds) with free-software tools. Don't think I will? - Stay tuned.
 
 That's all - Enjoy
