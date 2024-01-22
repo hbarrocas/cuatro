@@ -1,6 +1,7 @@
 from frontend import load_font, load_sound, cross_fade
 import pygame
 
+
 class Screen:
     _snd = None
     _buffer = None

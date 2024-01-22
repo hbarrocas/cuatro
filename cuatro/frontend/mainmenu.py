@@ -1,5 +1,6 @@
-from frontend import load_image, load_font, cross_fade
+from frontend import load_font, cross_fade
 import pygame
+
 
 class Screen:
 
