@@ -10,16 +10,16 @@ DISPLAY_WIDTH = 640
 DISPLAY_HEIGHT = 480
 
 """ Keys as returned by pygame.event.get() """
-K_UP     = pygame.K_UP
-K_DOWN   = pygame.K_DOWN
-K_LEFT   = pygame.K_LEFT
-K_RIGHT  = pygame.K_RIGHT
-K_SPACE  = pygame.K_SPACE
+K_UP = pygame.K_UP
+K_DOWN = pygame.K_DOWN
+K_LEFT = pygame.K_LEFT
+K_RIGHT = pygame.K_RIGHT
+K_SPACE = pygame.K_SPACE
 K_RETURN = pygame.K_RETURN
 K_ESCAPE = pygame.K_ESCAPE
-K_N      = pygame.K_n
-K_Q      = pygame.K_q
-K_P      = pygame.K_p
+K_N = pygame.K_n
+K_Q = pygame.K_q
+K_P = pygame.K_p
 
 
 def fade_in(surface):
@@ -72,7 +72,7 @@ class Core:
         pygame.key.set_repeat(200, 50)
         size = (DISPLAY_WIDTH, DISPLAY_HEIGHT)
         self.display = pygame.display.set_mode(size)
-        
+
     def _key_map(self, key):
         if key in self._key:
             self._key[key]()
